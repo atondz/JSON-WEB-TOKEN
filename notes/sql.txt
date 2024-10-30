@@ -1,0 +1,8 @@
+// INNER JOIN vs LEFT JOIN (RIGHT JOIN rất ít khi xài)v
+// Ví dụ như table chính cần query là Product, có Foreign Key (FK)
+=> Nếu xài INNER JOIN thì nếu như Category bị xóa mất, thì SQL query sẽ bỏ qua product
+=> Nếu như xài LEFT JOIN thì Category bị xóa thì Product vẫn được tìm thấy mà không có thông tin của Category
+
+
+
+21:09:21	SELECT      prod.id, prod.name, prod.price, cat.name as category_name FROM     products AS prod         LEFT JOIN     categories AS cat ON cat.id = prod.category_id WHERE     id = 1 LIMIT 0, 1000	Error Code: 1052. Column 'id' in where clause is ambiguous	0.0041 sec

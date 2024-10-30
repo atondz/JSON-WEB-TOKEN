@@ -1,0 +1,15 @@
+Có đuôi file là .ts
+
+TypeScript là một ngôn ngữ lập trình mã nguồn mở được phát triển bởi Microsoft. Nó là một siêu ngôn ngữ của JavaScript, nghĩa là TypeScript mở rộng JavaScript bằng cách thêm các tính năng như kiểu tĩnh (static types) và cú pháp để kiểm tra lỗi khi viết mã. TypeScript được biên dịch thành JavaScript, do đó có thể chạy trên bất kỳ môi trường nào hỗ trợ JavaScript (trình duyệt, Node.js,...).
+
+Một số tính năng chính của TypeScript:
+
+Hệ thống kiểu tĩnh: TypeScript cho phép khai báo kiểu dữ liệu (type) cho các biến, tham số, và giá trị trả về của hàm. Điều này giúp phát hiện lỗi tiềm ẩn ngay khi viết mã thay vì chờ đến lúc chạy chương trình.
+
+Tương thích JavaScript: TypeScript hoàn toàn tương thích với JavaScript, nghĩa là tất cả mã JavaScript hợp lệ đều có thể chạy trong TypeScript mà không cần thay đổi.
+
+Cải tiến hỗ trợ IDE: TypeScript cung cấp tính năng tự hoàn thành mã, kiểm tra lỗi thời gian thực và refactor tốt hơn trong các IDE, giúp việc phát triển dễ dàng hơn.
+
+Lập trình hướng đối tượng: TypeScript cung cấp cú pháp hỗ trợ lập trình hướng đối tượng (OOP) với các tính năng như lớp (class), kế thừa (inheritance), giao diện (interface), v.v.
+
+TypeScript thường được sử dụng trong các dự án lớn hoặc ứng dụng web phức tạp để tăng tính ổn định và giảm thiểu lỗi.

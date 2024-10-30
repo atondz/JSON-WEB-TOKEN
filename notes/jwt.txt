@@ -1,0 +1,36 @@
+B1: Cần đăng ký:
+gửi lên username và password -> save vào db
+
+B2: Login: 
+gui username / password lên
+=> vào db xem username đã đăng ký chưa
+=> nếu đăng ký rồi thì tạo token chứa thông tin của user
+
+B3: Khi call api cần có authen (xác thực người dùng), cần kèm theo cái token ở login
+
+
+Xác thực người dùng bằng middleware, (authMiddleware)
+
+
+nodejs xài npm
+java xài maven
+php xài composer
+
+
+//Camel Case => camelCase
+
+
+// Typeorm
+
+userRepository.find() // SELECT * FROM users;
+
+
+userRepository.findOneBy({
+    id: 1,
+}) // SELECT * FROM usersWHERE id = 1 LIMIT 1
+
+
+userRepository.findOneBy({
+    firstName: "Timber",
+    lastName: "Saw",
+}) // SELECT * FROM users WHERE first_name = 'Timber' AND last_name = 'Saw' LIMIT 1
